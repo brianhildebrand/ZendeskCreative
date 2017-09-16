@@ -27,3 +27,7 @@ nav_list:
   Events : ['Events', '/events']
   About : ['Jobs', '/jobs']
   Resources : ['Resources', '/resources']
+
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _scss
