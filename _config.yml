@@ -24,11 +24,6 @@ permalink: :title
 markdown: kramdown
 
 nav_list:
-  Home : ['Home', '/']
-  About : ['About', '/about']
-  Michelle : ['Michelle', '/author/michelle']
-  Sarah : ['Sarah', '/author/sarah']
-  Tom : ['Tom', '/author/tom']
-  Travel : ['Travel', '/category/travel']
-  Inspiration : ['Inpiration', '/category/inspiration']
-  Contact : ['Contact', '/contact/']
+  Events : ['Events', '/events']
+  About : ['Jobs', '/jobs']
+  Resources : ['Resources', '/resources']
