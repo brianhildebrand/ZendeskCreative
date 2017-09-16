@@ -3,27 +3,14 @@ layout: default
 bodyclass: full-height
 ---
 
-<div class="container full-container full">
-    <div class="row full">
-          {% for post in site.posts %}
-              {% if forloop.index == 1 %}
-              {% assign author = site.data.authors[post.author_slug] %}
-
-              <div class="three columns">
-                      <img src="url({{ site.baseurl }}/img/{{post.feature_image}})">
-                      <h1><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h1>
-
-                          <a href="{{author.permalink  | prepend: site.baseurl}}" class="hero___avatar-link"><img src="{{ site.baseurl }}/img/{{author.avatar_image}}"  alt="{{post.author_name}}"class="hero__content__avatar animated fadeIn delay-2" alt=""></a>
-                      <p>{{post.author_name}}</p>
-              </div>
-              {% else %}
-              <div class="three columns" style="background-image: url({{ site.baseurl }}/img/{{post.feature_image}});">
-                      <img src="url({{ site.baseurl }}/img/{{post.feature_image}})">
-                      <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-                      <p>{{post.author_name}}</p>
-                  </div>
-              </div>
-              {% endif %}
-          {% endfor %}
-    </div> <!--/row -->
+<div class="container">
+  <div class="row">
+  {% for post in site.posts %}
+    <div class="three columns" style="background-image: url({{ site.baseurl }}/img/{{post.feature_image}});">
+      <img src="url({{ site.baseurl }}/img/{{post.feature_image}})">
+      <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+      <p>{{post.author_name}}</p>
+    </div>
+  {% endfor %}
+  </div> <!--/row -->
 </div>
