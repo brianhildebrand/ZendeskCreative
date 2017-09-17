@@ -8,7 +8,7 @@ bodyclass: full-height
 <div id="home-contents" class="container">
   <div class="row">
   {% for post in site.posts %}
-    {% assign author = site.data.authors[page.author_slug] %}
+    {% assign author = site.data.authors[page.author] %}
     <div class="four columns">
       <img src="{{ site.baseurl }}/img/{{post.feature_image}}">
       <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
