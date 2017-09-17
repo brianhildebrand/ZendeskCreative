@@ -12,6 +12,7 @@ bodyclass: full-height
       <img src="{{ site.baseurl }}/img/{{post.feature_image}}">
       <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
       <p>{{post.author_name}}</p>
+      {{post.author_avatar_image}}
     </div>
   {% endfor %}
   </div> <!--/row -->
