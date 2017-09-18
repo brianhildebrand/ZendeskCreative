@@ -27,3 +27,12 @@ ben-hu:
     avatar_image: brian.png
     permalink: /author/ben
     instagram_url: http://instagram.com/huisben
+    
+nicolette-robichaud:
+    name: Nicolette Robiachaud
+    slug: nicolette-robichaud
+    bio: Pigen zine publisher.
+    location: San Francisco, CA
+    avatar_image: nicolette.png
+    permalink: /author/nicolette
+    instagram_url: http://instagram.com/vulgaris
