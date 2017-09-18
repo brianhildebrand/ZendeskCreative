@@ -10,8 +10,8 @@ bodyclass: full-height
     <div class="four columns">
       <img src="{{ site.baseurl }}/img/{{post.feature_image}}">
       <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-      <p>{{post.author_name}}</p>
-      <img class="author-avatar-small" src="{{ site.baseurl }}/img/{{post.author_avatar_image}}">
+      <p>{{author.name}}</p>
+      <img class="author-avatar-small" src="{{ site.baseurl }}/img/{{author.avatar_image}}">
     </div>
   {% endfor %}
   </div> <!--/row -->
