@@ -33,3 +33,25 @@ img{
 #home-contents{
   padding-top:100px;
 }
+
+.author-article-small{
+  width: 40px;
+  height:40px;
+  float:left;
+}
+
+clearfix {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+h2{
+  font-size:24px;
+  color: #012B30;
+  a{
+    text-decoration:none;
+  }  
+}
