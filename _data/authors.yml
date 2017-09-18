@@ -36,3 +36,11 @@ nicolette-robichaud:
     avatar_image: Nicolette.png
     permalink: /author/nicolette
     instagram_url: http://instagram.com/vulgaris
+    
+raphael-gueller:
+    name: Raphael Gueller
+    slug: raphael-gueller
+    bio: Pigen zine publisher.
+    location: London, UK
+    avatar_image: Nicolette.png
+    permalink: /author/raphael
