@@ -3,7 +3,7 @@ dovile-janule:
     slug: dovile-janule
     bio: Self service master
     location: Copenhagen, Danmark
-    avatar_image: dovile.png
+    avatar_image: Dovile.png
     permalink: /author/dovile
     instagram_url: http://instagram.com/dovilejanule
     dribbble_url: http://dribbble.com/Dovile
@@ -14,8 +14,8 @@ brian-hildebrand:
     slug: brian-hildebrand
     bio: Brogrammer and wanna be 
     location: San Francisco, CA
-    avatar_image: brian.png
-    permalink: /author/dovile
+    avatar_image: Brian.png
+    permalink: /author/brian
     instagram_url: http://instagram.com/hildebr4nd
     dribbble_url: http://dribbble.com/hildebr4nd
 
