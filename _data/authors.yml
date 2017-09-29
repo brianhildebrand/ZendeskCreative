@@ -3,7 +3,8 @@ dovile-janule:
     slug: dovile-janule
     bio: Self service master
     location: Copenhagen, Danmark
-    avatar_image: dovile.jpg
+    avatar_image: Dovile.png
+    cover_image: Dovile_full.jpg
     permalink: /author/dovile
     instagram_url: http://instagram.com/dovilejanule
     dribbble_url: http://dribbble.com/Dovile
@@ -14,8 +15,8 @@ brian-hildebrand:
     slug: brian-hildebrand
     bio: Brogrammer and wanna be 
     location: San Francisco, CA
-    avatar_image: brian.jpg
-    permalink: /author/dovile
+    avatar_image: Brian.png
+    permalink: /author/brian
     instagram_url: http://instagram.com/hildebr4nd
     dribbble_url: http://dribbble.com/hildebr4nd
 
@@ -24,6 +25,23 @@ ben-hu:
     slug: ben-hu
     bio: Data nerd and has day trader on design team.
     location: San Francisco, CA
-    avatar_image: ben.jpg
+    avatar_image: brian.png
     permalink: /author/ben
     instagram_url: http://instagram.com/huisben
+    
+nicolette-robichaud:
+    name: Nicolette Robichaud
+    slug: nicolette-robichaud
+    bio: Pigen zine publisher.
+    location: San Francisco, CA
+    avatar_image: Nicolette.png
+    permalink: /author/nicolette
+    instagram_url: http://instagram.com/vulgaris
+    
+raphael-gueller:
+    name: Raphael Gueller
+    slug: raphael-gueller
+    bio: Pigen zine publisher.
+    location: London, UK
+    avatar_image: Raphael.png
+    permalink: /author/raphael
