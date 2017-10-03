@@ -4,7 +4,7 @@ bodyclass: full-height
 ---
 {% assign author = site.data.authors[page.author_slug] %}
 {% assign author_posts = site.posts | where: "author_slug", page.author_slug %}
-<div class="container full-container full author-contents">
+<div id="author-contents" class="container full-container full">
   <div class="row full">
     <div class="four columns">
       <div class="author-meta author-role"> {{author.role}} </div>
@@ -19,6 +19,5 @@ bodyclass: full-height
 </div>
 
 {% include author-social-icons.html author=author %}
-
 {% include loop-posts-general.html  posts=author_posts%}
 

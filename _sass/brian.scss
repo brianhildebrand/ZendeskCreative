@@ -52,7 +52,6 @@ a{
   width:108px;
   height:30px;
   background: url('/img/zendesk_design_logo.svg');
-
 }
 
 img{
@@ -71,7 +70,6 @@ clearfix {
     clear: both;
   }
 }
-
 
 // Homepage
 
@@ -101,3 +99,15 @@ clearfix {
   float:left;
   margin-right: 12px;
 }
+
+// Author page
+
+#author-contents{
+  padding-top:100px;
+  h2{
+    font-size: 32px;
+  }
+}
+
+
+
