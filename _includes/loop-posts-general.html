@@ -1,9 +1,13 @@
 <div class="container full-container full">
     <div class="row full">
           {% for post in include.posts %}
-              <div class="four columns">
+              <div class="four columns article-link">
                 <img src="{{ site.baseurl }}/img/{{post.feature_image}}">
-                <h2><a href="{{post.url | prepend: site.baseurl }}">{{post.title}}</a></h2>
+                <h2><a class="article-title" href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+                <div class="clearfix">
+                  <img class="author-avatar-small" src="{{ site.baseurl }}/img/{{author.avatar_image}}">
+                   <a class="article-author" href="{{ site.baseurl }}{{ author.permalink }}">{{author.name}}</a>
+                </div>
               </div>
           {% endfor %}
     </div> <!--/row -->

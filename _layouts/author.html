@@ -4,10 +4,11 @@ bodyclass: full-height
 ---
 {% assign author = site.data.authors[page.author_slug] %}
 {% assign author_posts = site.posts | where: "author_slug", page.author_slug %}
-<div class="container full-container full">
+<div class="container full-container full author-contents">
   <div class="row full">
     <div class="four columns">
-      <p class="author-details__extra"> {{author.location}} / <a  class="author-details__link" href="{{author.url}}">{{author.url}}</a></p>
+      <div class="author-meta author-role"> {{author.role}} </div>
+      <div class="author-meta author-location"> {{author.location}} </div>
     </div>
     <div class="eight columns">
       <img src='{{ site.baseurl }}/img/{{author.cover_image}}' class="author-details__image">

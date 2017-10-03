@@ -6,6 +6,7 @@ dovile-janule:
     avatar_image: Dovile.png
     cover_image: Dovile_full.jpg
     permalink: /author/dovile
+    role: Senior Product Designer
     instagram_url: http://instagram.com/dovilejanule
     dribbble_url: http://dribbble.com/Dovile
     medium_url: http://medium.com/@dovilejan
@@ -17,6 +18,7 @@ brian-hildebrand:
     location: San Francisco, CA
     avatar_image: Brian.png
     permalink: /author/brian
+    role: Product Designer
     instagram_url: http://instagram.com/hildebr4nd
     dribbble_url: http://dribbble.com/hildebr4nd
 
@@ -27,8 +29,9 @@ ben-hu:
     location: San Francisco, CA
     avatar_image: brian.png
     permalink: /author/ben
+    role: Data Analyst
     instagram_url: http://instagram.com/huisben
-    
+
 nicolette-robichaud:
     name: Nicolette Robichaud
     slug: nicolette-robichaud
@@ -36,12 +39,14 @@ nicolette-robichaud:
     location: San Francisco, CA
     avatar_image: Nicolette.png
     permalink: /author/nicolette
+    role: Product Designer
     instagram_url: http://instagram.com/vulgaris
-    
+
 raphael-gueller:
     name: Raphael Gueller
     slug: raphael-gueller
     bio: Pigen zine publisher.
     location: London, UK
     avatar_image: Raphael.png
+    role: Global Brand Manager
     permalink: /author/raphael
