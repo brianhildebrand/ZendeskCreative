@@ -7,7 +7,7 @@ bodyclass: full-height
   <div class="row">
   {% for post in site.posts %}
     {% assign author = site.data.authors[post.author_slug] %}
-    <div class="four columns">
+    <div class="four columns article-link">
       <img src="{{ site.baseurl }}/img/{{post.feature_image}}">
       <h2><a class="article-title" href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
       <div class="clearfix">
