@@ -9,12 +9,11 @@ bodyclass: full-height
     {% assign author = site.data.authors[post.author_slug] %}
     <div class="four columns">
       <img src="{{ site.baseurl }}/img/{{post.feature_image}}">
-      <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+      <h2><a class="article-title" href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
       <div class="clearfix">
         <img class="author-avatar-small" src="{{ site.baseurl }}/img/{{author.avatar_image}}">
-        <div class="article-author">{{author.name}}</div>
+         <a href="{{author.slug}}">{{author.name}}</a>
       </div>
-      <a href="{{author.slug}}">{{author.name}}</a>
     </div>
   {% endfor %}
   </div> <!--/row -->
