@@ -12,7 +12,7 @@ bodyclass: full-height
       <h2><a class="article-title" href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
       <div class="clearfix">
         <img class="author-avatar-small" src="{{ site.baseurl }}/img/{{author.avatar_image}}">
-         <a class="article-author" href="{{ site.baseurl }}/author/{{ author.permalink }}">{{author.name}}</a>
+         <a class="article-author" href="{{ site.baseurl }}/{{ author.permalink }}">{{author.name}}</a>
       </div>
     </div>
   {% endfor %}
