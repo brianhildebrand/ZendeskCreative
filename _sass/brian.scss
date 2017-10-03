@@ -4,7 +4,6 @@ $aluminum: #999999;
 $daintree: #012B30;
 $pelorous: #30AABC;
 
-
 html{
   background-color:white
 }
@@ -30,6 +29,12 @@ a{
   display: block;
   z-index: 10;
   box-shadow: 0 0 30px 0 rgba(36,83,107,.15);
+  a{
+    color:$monsoon;
+    &:hover {
+      color:$pelorous;
+    }
+  }
 }
 
 #menu{
