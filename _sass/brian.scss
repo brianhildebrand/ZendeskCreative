@@ -1,4 +1,5 @@
 $oil: #333333;
+$monsoon: #777777
 $aluminum: #999999;
 $daintree: #012B30;
 
@@ -41,7 +42,7 @@ a{
   float: left;
   width:108px;
   height:30px;
-  background: url("img/zendesk_design_logo.svg");
+  background: url("{{ site.baseurl }}/img/zendesk_design_logo.svg");
 }
 
 img{
@@ -68,6 +69,9 @@ clearfix {
   a{
     color: $daintree;
   }
+  h2{
+    line-height: .8em;
+  }
 }
 
 .article-title{
@@ -77,6 +81,8 @@ clearfix {
 
 .article-author{
   color: $oil;
+  padding-top: 8px;
+  display: block;
 }
 
 .author-avatar-small{
