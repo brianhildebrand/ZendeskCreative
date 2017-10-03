@@ -2,6 +2,7 @@ $oil: #333333;
 $monsoon: #777777;
 $aluminum: #999999;
 $daintree: #012B30;
+$pelorous: #30AABC;
 
 
 html{
@@ -14,6 +15,9 @@ body{
 
 a{
   text-decoration: none;
+  &:hover {
+    color:$pelorous;
+  }
 }
 
 // Header
@@ -42,7 +46,7 @@ a{
   float: left;
   width:108px;
   height:30px;
-  background-image: url('{{ site.baseurl }}/img/zendesk_design_logo.svg');
+  background-image: url($baseurl + '/img/zendesk_design_logo.svg');
 }
 
 img{
@@ -70,7 +74,7 @@ clearfix {
     color: $daintree;
   }
   h2{
-    line-height: .8em;
+    line-height: .6em;
   }
 }
 
