@@ -1,7 +1,9 @@
 dovile-janule:
     name: Dovile Janule
     slug: dovile-janule
-    bio: Self service master
+    bio: >
+        Self service master
+        And senior designer
     location: Copenhagen, Denmark
     avatar_image: Dovile.png
     cover_image: Dovile_full.jpg
@@ -50,3 +52,23 @@ raphael-gueller:
     avatar_image: Raphael.png
     role: Global Brand Manager
     permalink: /author/raphael
+
+ryan-donahue:
+    name: Ryan Donahue
+    slug: ryan-donahue
+    bio: Ran a startup with Aston Kutcher
+    location: San Francisco, CA
+    avatar_image: Ryan.png
+    role: VP Creative
+    permalink: /author/ryan
+
+toke-nygaard:
+    name: Toke Nygaard
+    slug: toke-nygaard
+    bio: Cuban council expat.
+    location: London, UK
+    avatar_image: Toke.png
+    role: CCO
+    permalink: /author/toke
+    medium_url: http://medium.com/@tokenygaard
+    instagram_url: http://instagram.com/tokeloke/

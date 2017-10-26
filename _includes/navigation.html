@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="twelve columns" id="menu">
-                <div id="zendesk-design-logo" style="background: url('{{site.baseurl}}/img/zendesk_design_logo.svg');"></div>
+                <a href="{{ site.baseurl }}/" id="zendesk-design-logo" style="background: url('{{site.baseurl}}/img/zendesk_design_logo.svg');"></a>
                 <ul>
                     {% for page in site.nav_list %}
                         <li><a href="{{ page[1][1] | prepend: site.baseurl }}">{{ page[1][0] }}</a></li>

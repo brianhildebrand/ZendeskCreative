@@ -6,10 +6,11 @@ bodyclass: full-height
 {% assign author_posts = site.posts | where: "author_slug", page.author_slug %}
 <div id="author-contents" class="container full-container full">
   <div class="row full">
-    <div class="four columns">
+    <div class="four columns author-meta-container">
       <div class="city-stamp" style="background: url('{{site.baseurl}}/img/london_stamp.svg');"></div>
       <div class="author-meta author-role"> {{author.role}} </div>
       <div class="author-meta author-location"> {{author.location}} </div>
+      <div class="author-social">{% include author-social-icons.html author=author %}</div>
     </div>
     <div class="eight columns">
       <img src='{{ site.baseurl }}/img/{{author.cover_image}}' class="author-details__image">
@@ -19,6 +20,7 @@ bodyclass: full-height
   </div>
 </div>
 
-{% include author-social-icons.html author=author %}
 {% include loop-posts-general.html  posts=author_posts%}
+
+
 
