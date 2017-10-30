@@ -105,7 +105,7 @@
         clientId: '772a6d810cc844a9aee69fe841d40acb',
         accessToken: '5827019264.772a6d8.7b48f8fac03b4e82aa30378bc45e1216',
         resolution: 'standard_resolution',
-        template: '<div class="three columns"><img src="{{image}}" /></div>'
+        template: '<div class="col-md-3"><img src="{{image}}" /></div>'
     });
     feed.run();
 });

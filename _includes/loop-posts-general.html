@@ -1,7 +1,7 @@
 <div class="container full-container full author-posts">
     <div class="row full">
           {% for post in include.posts %}
-              <div class="four columns article-link">
+              <div class="col-md-4 article-link">
                 <img src="{{ site.baseurl }}/img/{{post.feature_image}}">
                 <h2><a class="article-title" href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
                 <div class="clearfix">

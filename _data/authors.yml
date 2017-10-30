@@ -40,6 +40,7 @@ nicolette-robichaud:
     bio: Pigen zine publisher.
     location: San Francisco, CA
     avatar_image: Nicolette.png
+    cover_image: Nicolette_full.jpg
     permalink: /author/nicolette
     role: Product Designer
     instagram_url: http://instagram.com/vulgaris
@@ -68,6 +69,7 @@ toke-nygaard:
     bio: Cuban council expat.
     location: London, UK
     avatar_image: Toke.png
+    cover_image: Toke_full.jpg
     role: CCO
     permalink: /author/toke
     medium_url: http://medium.com/@tokenygaard

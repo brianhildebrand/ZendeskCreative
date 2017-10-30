@@ -4,7 +4,7 @@ $aluminum: #999999;
 $daintree: #012B30;
 $pelorous: #30AABC;
 
-html{
+html{ 
   background-color:white
 }
 
@@ -16,6 +16,7 @@ a{
   text-decoration: none;
   &:hover {
     color:$pelorous;
+    text-decoration: none;
   }
 }
 
@@ -77,21 +78,68 @@ clearfix {
   }
 }
 
+// Footer
+
+footer{
+  width:100%;
+  height:120px;
+  margin-top: 40px; 
+  background-color: $daintree;
+  a{
+    color:white;
+  }
+  .social-icon{
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: right;
+    background-size: 26px 26px;
+    margin: 0 5px 0 5px;
+    opacity: 1;
+  } 
+}
+
+.footer-social-links{
+  padding-top: 45px;
+} 
+
+.team-instagram{
+  background:url("../img/instagram-icon-white.svg")no-repeat;
+}
+
+.team-dribbble{
+  background:url("../img/dribbble-icon-white.svg")no-repeat;
+}
+
+.team-medium{
+  background:url("../img/medium-icon-white.svg")no-repeat;
+}
+
+.footer-nav{
+    width: 189px;
+    margin: auto;
+    margin-top: 47px;
+  a{
+    margin: 0 20px;
+  }
+}
+
+
 // Homepage
 
 .article-link{
   min-height: 360px;
+  margin-bottom: 40px;
   a{
     color: $daintree;
   }
   h2{
-    line-height: .6em;
+    color: $daintree;
+    font-size:24px;
+    line-height: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
-}
-
-.article-title{
-  color: $daintree;
-  font-size:24px;
 }
 
 .article-author{
@@ -105,6 +153,50 @@ clearfix {
   height:40px;
   float:left;
   margin-right: 12px;
+}
+
+#instafeed{
+  margin-top:60px;
+}
+
+.circle{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 0 30px 0 rgba(36, 83, 107, 0.2);
+  z-index: 100;
+  top: 107px;
+  position:absolute;
+  cursor: pointer;
+}
+
+.next-instagram{
+  right: -6px;
+}
+
+.previous-instagram{
+  left: -6px;
+}
+
+.arrow-next{
+  background:url("../img/Next.svg")no-repeat;
+  display: block;
+  height: 20px;
+  width: 20px;
+  background-size: 12px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.arrow-previous{
+  background:url("../img/Previous.svg")no-repeat;
+  display: block;
+  height: 20px;
+  width: 20px;
+  background-size: 12px;
+  margin-top: 10px;
+  margin-left: 13px;
 }
 
 // Author page

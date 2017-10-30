@@ -1,8 +1,14 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
-
 ---
 
 // Imports
-@import "skeleton";
+
+@import "_functions";
+@import "_variables";
+@import "_mixins";
+
+@import "_grid";
+@import "_reboot";
+@import "slick";
 @import "brian";
