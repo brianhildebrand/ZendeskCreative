@@ -4,8 +4,22 @@ $aluminum: #999999;
 $daintree: #012B30;
 $pelorous: #30AABC;
 
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@font-face {
+  font-family: "Sharp Sans";
+  src: url("fonts/SharpSansNo1-Bold.eotw") format("eot"),
+     url("../fonts/SharpSansNo1-Bold.woff") format("woff");
+}
+
 html{ 
-  background-color:white
+  background-color:white;
 }
 
 body{
@@ -14,6 +28,7 @@ body{
 
 a{
   text-decoration: none;
+  @include transition(color .2s ease);
   &:hover {
     color:$pelorous;
     text-decoration: none;
@@ -23,6 +38,15 @@ a{
 p{
   font-size: 18px;
   color:$monsoon;
+}
+
+h2{
+  font-family: "Sharp Sans";
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
 }
 
 // Header
@@ -124,7 +148,6 @@ footer{
   }
 }
 
-
 // Homepage
 
 .article-link{
@@ -156,7 +179,8 @@ footer{
 }
 
 #instafeed{
-  margin-top:60px;
+  margin-top:30px;
+  margin-bottom:60px;
 }
 
 .circle{
@@ -169,6 +193,9 @@ footer{
   top: 107px;
   position:absolute;
   cursor: pointer;
+  &.slick-disabled{
+    visibility: hidden;
+  }
 }
 
 .next-instagram{

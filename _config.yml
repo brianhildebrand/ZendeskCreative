@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Zendesk Creative
-description: > # A blog about travel, adventure and stories from the road.
+description: > # Work coming out of Zendesk Creative
 baseurl: "/ZendeskCreative" # the subpath of your site, e.g. /blog
 url: "http://brianhildebrand.github.io/ZendeskCreative/" # the base hostname & protocol for your site
 permalink: :title
@@ -26,7 +26,6 @@ markdown: kramdown
 nav_list:
   Events : ['Events', '/events']
   About : ['Jobs', '/jobs']
-  Resources : ['Resources', '/resources']
 
 # We specify the directory for Jekyll so we can use @imports.
 sass:

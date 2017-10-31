@@ -74,3 +74,21 @@ toke-nygaard:
     permalink: /author/toke
     medium_url: http://medium.com/@tokenygaard
     instagram_url: http://instagram.com/tokeloke/
+
+tengwan-quek:
+    name: Tengwan Quek
+    slug: tengwan-quek
+    bio: Former illustrator
+    location: Signapore
+    avatar_image: Tengwan.png
+    role: Product designer
+    permalink: /author/tengwan
+
+bob-galmarini:
+    name: Bob Galmarini
+    slug: bob-galmarini
+    bio: Surfer and all around amazing family man
+    location: San Francisco, CA
+    avatar_image: Brian.png
+    role: Creative Director
+    permalink: /author/bob
