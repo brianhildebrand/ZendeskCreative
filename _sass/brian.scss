@@ -49,6 +49,10 @@ h2{
   clear: both;
 }
 
+.text-center{
+  text-align: center;
+}
+
 // Header
 
 #header{
@@ -140,7 +144,7 @@ footer{
 }
 
 .footer-nav{
-    width: 189px;
+    width: 204px;
     margin: auto;
     margin-top: 47px;
   a{
@@ -274,7 +278,27 @@ footer{
   margin-top: 100px;
 }
 
+// Authors list page
 
+#authors-contents{
+  padding-top:100px;
+}
 
+.author-link{
+  margin-bottom: 40px;
+  img{
+    width: 80%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .author-role{
+    color:$aluminum;
+    font-size: 14px;
+  }
+  h2{
+    color: $daintree!important;  
+  }
+}
 
 

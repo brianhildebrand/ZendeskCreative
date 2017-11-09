@@ -5,4 +5,5 @@ categories: brand
 author_slug: ryan-donahue
 is_featured: false
 feature_image: relationshapes.png
+permalink: https://www.linkedin.com/pulse/why-people-hate-your-rebrand-ryan-donahue/
 ---

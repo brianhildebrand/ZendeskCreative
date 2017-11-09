@@ -24,16 +24,6 @@ brian-hildebrand:
     instagram_url: http://instagram.com/hildebr4nd
     dribbble_url: http://dribbble.com/hildebr4nd
 
-ben-hu:
-    name: Ben Hu
-    slug: ben-hu
-    bio: Data nerd and has day trader on design team.
-    location: San Francisco, CA
-    avatar_image: brian.png
-    permalink: /author/ben
-    role: Data Analyst
-    instagram_url: http://instagram.com/huisben
-
 nicolette-robichaud:
     name: Nicolette Robichaud
     slug: nicolette-robichaud
@@ -89,6 +79,6 @@ bob-galmarini:
     slug: bob-galmarini
     bio: Surfer and all around amazing family man
     location: San Francisco, CA
-    avatar_image: Brian.png
+    avatar_image: Bob.png
     role: Creative Director
     permalink: /author/bob
