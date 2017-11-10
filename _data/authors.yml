@@ -38,6 +38,7 @@ nicolette-robichaud:
     permalink: /author/nicolette
     role: Product Designer
     instagram_url: http://instagram.com/vulgaris
+    dribbble_url: http://dribbble.com/nicolette
 
 raphael-gueller:
     name: Raphael Gueller
@@ -46,6 +47,7 @@ raphael-gueller:
     location: London, UK
     city: london
     avatar_image: Raphael.png
+    cover_image: Brian_01.jpg
     role: Global Brand Manager
     permalink: /author/raphael
 
@@ -96,3 +98,5 @@ bob-galmarini:
     cover_image: Bob_full.jpg
     role: Creative Director
     permalink: /author/bob
+    instagram_url: http://instagram.com/bgalmar
+    dribbble_url: http://dribbble.com/bgalmar

@@ -1,8 +1,9 @@
 ---
 layout: event
-permalink: /event/designing-products-for-virtual-reality
 title: Designing Products for Virtual Reality 
-cover_image: event_photo.jpg
+date: 2016-11-04-10 08:50:28
+permalink: /event/designing-products-for-virtual-reality
+cover_image: designing_for_business.jpg
 ---
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce neque nulla, pretium sit amet orci vitae, dapibus mollis lectus. Proin ex sem, feugiat et porttitor vehicula, porta nec ante. Proin nec massa nec nibh sollicitudin dapibus quis sit amet nibh. Sed tempus dolor vitae consectetur vehicula. Donec vehicula sit amet arcu et malesuada. Sed nec eleifend magna, eu molestie mauris. Aliquam ut venenatis purus.</p>
