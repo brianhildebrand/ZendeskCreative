@@ -5,4 +5,5 @@ categories: brand
 author_slug: bob-galmarini
 is_featured: true
 feature_image: adi-goodrich-set.png
+permalink: https://medium.com/zendesk-creative-blog/
 ---

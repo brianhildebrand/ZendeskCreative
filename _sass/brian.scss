@@ -4,6 +4,9 @@ $aluminum: #999999;
 $daintree: #012B30;
 $pelorous: #30AABC;
 
+$headerHeight: 60px;
+$footerHeight: 120px;
+
 @mixin transition($args...) {
   -webkit-transition: $args;
   -moz-transition: $args;
@@ -26,6 +29,13 @@ body{
   margin:0;  
 }
 
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
 a{
   text-decoration: none;
   @include transition(color .2s ease);
@@ -44,6 +54,15 @@ h2{
   font-family: "Sharp Sans";
 }
 
+h4{
+  color: $daintree;
+}
+
+#wrapper {
+   min-height:100%;
+   position:relative;
+}
+
 .clearfix:after {
   content: "";
   clear: both;
@@ -53,15 +72,26 @@ h2{
   text-align: center;
 }
 
+#main-content{
+  /*padding-top:100px;*/
+  padding-bottom: $footerHeight;
+}
+
+.padding-md{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
 // Header
 
 #header{
   position: fixed;
   width: 100%;
-  height: 60px;
+  height: $headerHeight;
   background-color: white;
   display: block;
-  z-index: 10;
+  z-index: 101;
   box-shadow: 0 0 30px 0 rgba(36,83,107,.15);
   a{
     color:$monsoon;
@@ -110,7 +140,9 @@ clearfix {
 
 footer{
   width:100%;
-  height:120px;
+  height:$footerHeight;
+  position:absolute;
+  bottom:0;
   margin-top: 40px; 
   background-color: $daintree;
   a{
@@ -150,6 +182,14 @@ footer{
   a{
     margin: 0 20px;
   }
+}
+
+#zendesk-home{
+  height: 100px;
+  width: 100px;
+  background:url("../img/zendesk-medium-white.svg")no-repeat;
+  display: block;
+  margin-top: 22px;
 }
 
 // Homepage
@@ -237,7 +277,8 @@ footer{
   h2{
     font-size: 32px;
     color:$daintree;
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 24px;
   }
 }
 
@@ -246,6 +287,22 @@ footer{
   height: 146px;
   margin: auto;
   margin-bottom: 20px;
+}
+
+.city-stamp.singapore{
+  background:url("../img/singapore_stamp.svg")no-repeat;
+}
+
+.city-stamp.london{
+  background:url("../img/london_stamp.svg")no-repeat;
+}
+
+.city-stamp.san-francisco{
+  background:url("../img/sanfrancisco_stamp.svg")no-repeat;
+}
+
+.city-stamp.copenhagen{
+  background:url("../img/copenhagen_stamp.svg")no-repeat;
 }
 
 .author-meta-container{
@@ -281,11 +338,11 @@ footer{
 // Authors list page
 
 #authors-contents{
-  padding-top:100px;
+  padding-top:120px;
 }
 
 .author-link{
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   img{
     width: 80%;
     margin: auto;
@@ -301,4 +358,19 @@ footer{
   }
 }
 
+// Events
+
+#event-content{
+  padding-top: $headerHeight;
+}
+
+.cover-image{
+  height: 540px;
+  width: 100%;
+  background-size: cover;
+}
+
+#events-contents{
+  padding-top: 120px;
+}
 

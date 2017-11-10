@@ -9,7 +9,7 @@ bodyclass: full-height
     {% if post.is_featured == true %}
     {% assign author = site.data.authors[post.author_slug] %}
     <div class="col-md-6 article-link">
-      <a class="article-title" href="{{post.url}}">
+      <a class="article-title" href="{{post.permalink}}" target="_blank">
         <img src="{{ site.baseurl }}/img/{{post.feature_image}}">
         <h2>{{post.title}}</h2>
       </a>
@@ -29,7 +29,7 @@ bodyclass: full-height
     {% if post.is_featured == false %}
     {% assign author = site.data.authors[post.author_slug] %}
     <div class="col-md-6 article-link">
-      <a class="article-title" href="{{post.url}}">
+      <a class="article-title" href="{{post.permalink}}" target="_blank">
         <img src="{{ site.baseurl }}/img/{{post.feature_image}}">
         <h2>{{post.title}}</h2>
       </a>

@@ -5,4 +5,5 @@ categories: brand
 author_slug: raphael-gueller
 is_featured: true
 feature_image: sxsw-popup.png
+permalink: https://medium.com/zendesk-creative-blog/
 ---

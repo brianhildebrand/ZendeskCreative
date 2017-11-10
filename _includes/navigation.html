@@ -4,9 +4,8 @@
             <div class="col-md-12" id="menu">
                 <a href="{{ site.baseurl }}/" id="zendesk-design-logo" style="background: url('{{site.baseurl}}/img/zendesk_design_logo.svg');"></a>
                 <ul>
-                    {% for page in site.nav_list %}
-                        <li><a href="{{ page[1][1] | prepend: site.baseurl }}">{{ page[1][0] }}</a></li>
-                    {% endfor %}
+                    <li><a href="{{ site.baseurl }}/events">Events</a></li>
+                    <li><a href="http://zendesk.com/jobs" target="_blank">Careers</a></li>
                 </ul>
             </div>
 

@@ -23,6 +23,10 @@ permalink: :title
 # Build settings
 markdown: kramdown
 
+collections:
+  events:
+    output: true
+
 nav_list:
   Events : ['Events', '/events']
   About : ['Jobs', '/jobs']
@@ -30,3 +34,4 @@ nav_list:
 # We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir: _sass
+

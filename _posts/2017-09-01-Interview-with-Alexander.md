@@ -5,4 +5,5 @@ categories: product-design
 author_slug: brian-hildebrand
 is_featured: false
 feature_image: relationshapes.png
+permalink: https://medium.com/zendesk-creative-blog/
 ---

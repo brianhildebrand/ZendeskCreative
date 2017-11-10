@@ -2,10 +2,15 @@
 layout: default
 ---
 
-blasldmals;dm
-
-{% for event in site.events %}
-
-event
-
-{% endfor %}
+<div id="events-contents" class="container">
+  <div class="row">
+    {% for event in site.events %}
+      
+    <a class="col-md-6 article-link" href="{{ site.baseurl }}{{ event.permalink }}">
+      <img src="{{ site.baseurl }}/img/{{event.cover_image}}">
+      <h2>{{event.title}}</h2>
+    </a>
+      
+    {% endfor %}
+  </div>
+</div>

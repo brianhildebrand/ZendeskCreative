@@ -1,7 +1,7 @@
 ---
 layout: author
-author_slug: ryan-donahue
-permalink: /author/ryan/
+author_slug: bob-galmarini
+permalink: /author/bob/
 ---
 
 <h4>What’s been your proudest moment since joining Zendesk?</h4>

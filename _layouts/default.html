@@ -4,11 +4,15 @@
   {% include head.html %}
 
   <body class="{% if layout.bodyclass %}{{ layout.bodyclass }}{% endif %}">
-    {% include navigation.html %}
+  	<div id="wrapper">
+	    {% include navigation.html %}
 
-    {{ content }}
-
-    {% include footer.html %}
+	    <div id="main-content">
+	    	{{ content }}
+	    </div>
+	    
+		{% include footer.html %}
+	</div>
 
     <script type="text/javascript" src="{{ "/js/jquery-3.2.1.min.js" | prepend: site.baseurl }}"></script>
     <script type='text/javascript' src="{{ "/js/instafeed.js" | prepend: site.baseurl }}"></script>

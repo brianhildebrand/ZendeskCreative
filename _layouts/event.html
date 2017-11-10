@@ -1,0 +1,16 @@
+---
+layout: default
+bodyclass: full-height
+---
+
+<div id="event-content">
+	<div class="cover-image" style="background-image:url('{{ site.baseurl }}/img/{{ page.cover_image }}')"></div>
+	<div class="container">
+		<div class="row padding-md">
+			<div class="col-md-10 offset-md-1">
+				<h1 class="event-title">{{page.title}}</h1>
+				{{content}}
+			</div>
+		</div>
+	</div>
+</div>

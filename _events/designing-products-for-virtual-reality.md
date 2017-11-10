@@ -1,7 +1,7 @@
 ---
 layout: event
-permalink: /event/designing-for-business/
-title: Designing for business
+permalink: /event/designing-products-for-virtual-reality
+title: Designing Products for Virtual Reality 
 cover_image: event_photo.jpg
 ---
 

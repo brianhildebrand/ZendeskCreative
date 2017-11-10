@@ -5,4 +5,5 @@ categories: travel storytime
 author_slug: dovile-janule
 is_featured: true
 feature_image: copenhagen-help-center.png
+permalink: https://medium.com/zendesk-creative-blog/
 ---

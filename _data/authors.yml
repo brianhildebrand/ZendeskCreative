@@ -5,6 +5,7 @@ dovile-janule:
         Self service master
         And senior designer
     location: Copenhagen, Denmark
+    city: copenhagen
     avatar_image: Dovile.png
     cover_image: Dovile_full.jpg
     permalink: /author/dovile
@@ -18,6 +19,7 @@ brian-hildebrand:
     slug: brian-hildebrand
     bio: Brogrammer and wanna be 
     location: San Francisco, CA
+    city: san-francisco
     avatar_image: Brian.png
     permalink: /author/brian
     role: Product Designer
@@ -29,6 +31,7 @@ nicolette-robichaud:
     slug: nicolette-robichaud
     bio: Pigen zine publisher.
     location: San Francisco, CA
+    city: san-francisco
     avatar_image: Nicolette.png
     cover_image: Nicolette_full.jpg
     permalink: /author/nicolette
@@ -40,6 +43,7 @@ raphael-gueller:
     slug: raphael-gueller
     bio: Pigen zine publisher.
     location: London, UK
+    city: london
     avatar_image: Raphael.png
     role: Global Brand Manager
     permalink: /author/raphael
@@ -49,15 +53,19 @@ ryan-donahue:
     slug: ryan-donahue
     bio: Ran a startup with Aston Kutcher
     location: San Francisco, CA
+    city: san-francisco
     avatar_image: Ryan.png
+    cover_image: Ryan_full.jpg
     role: VP Creative
     permalink: /author/ryan
+    instagram_url: http://instagram.com/rydonahue/
 
 toke-nygaard:
     name: Toke Nygaard
     slug: toke-nygaard
     bio: Cuban council expat.
     location: London, UK
+    city: london
     avatar_image: Toke.png
     cover_image: Toke_full.jpg
     role: CCO
@@ -70,15 +78,20 @@ tengwan-quek:
     slug: tengwan-quek
     bio: Former illustrator
     location: Signapore
+    city: singapore
     avatar_image: Tengwan.png
+    cover_image: Tengwan_full.jpg
     role: Product designer
     permalink: /author/tengwan
+    dribbble_url: http://www.some-wan.com/
 
 bob-galmarini:
     name: Bob Galmarini
     slug: bob-galmarini
     bio: Surfer and all around amazing family man
     location: San Francisco, CA
+    city: san-francisco
     avatar_image: Bob.png
+    cover_image: Bob_full.jpg
     role: Creative Director
     permalink: /author/bob
