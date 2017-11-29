@@ -16,6 +16,20 @@ $footerHeight: 120px;
   transition: $args;
 }
 
+// generic transform
+@mixin transform($transforms) {
+     -moz-transform: $transforms;
+       -o-transform: $transforms;
+      -ms-transform: $transforms;
+  -webkit-transform: $transforms;
+          transform: $transforms;
+}
+
+// translate
+@mixin translate ($x, $y) {
+   @include transform(translate($x, $y));
+}
+
 @font-face {
   font-family: "Sharp Sans";
   src: url("fonts/SharpSansNo1-Bold.eotw") format("eot"),
@@ -269,6 +283,30 @@ footer{
   background-size: 12px;
   margin-top: 10px;
   margin-left: 13px;
+}
+
+.instagram-watermark{
+  
+}
+
+.instagram-photo{
+  .social-icon{
+    bottom: 10px;
+    left: 20px;
+    position: absolute;
+    opacity: 0;
+    background:url("../img/instagram-icon-white.svg")no-repeat;
+    @include transition(.2s ease);
+  }
+  &:hover{
+    .social-icon{
+      opacity: 1;
+    }
+  }
+}
+
+.video-container{
+  padding-bottom: 60px;
 }
 
 // Author page
