@@ -12,3 +12,11 @@ $( document ).ready(function() {
 	}, 500);
 
 });
+
+$(function(){
+  $("video").hover(function(){
+    this.play();
+    },function(){
+   this.pause();
+  });
+});
