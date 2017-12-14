@@ -4,7 +4,6 @@ $monsoon: #777777;
 $aluminum: #999999;
 $daintree: #012B30;
 $pelorous: #30AABC;
-
 $headerHeight: 60px;
 $footerHeight: 120px;
 
@@ -103,7 +102,6 @@ h4{
 }
 
 #main-content{
-  /*padding-top:100px;*/
   padding-bottom: $footerHeight;
 }
 
@@ -144,13 +142,18 @@ video {
   }
 }
 
+#main-navigation{
+  & li:last-child{
+    margin-left:0;
+  }
+}
+
 #zendesk-design-logo{
   display: block;
   float: left;
   width: 123px;
   height: 25px;
   margin-top: 19px;
-  
   background:url("../img/zendesk_creative_logo.svg")no-repeat;
 }
 
@@ -211,11 +214,14 @@ footer{
 }
 
 .footer-nav{
-    width: 204px;
+    /*width: 204px;*/
     margin: auto;
     margin-top: 47px;
   a{
-    margin: 0 20px;
+    margin-left:20px;
+  }
+  & a:first-child{
+    margin-left:0;
   }
 }
 
@@ -293,6 +299,10 @@ footer{
 #instafeed{
   margin-top:30px;
   margin-bottom:60px;
+}
+
+.instagram-photo{
+  display: block;
 }
 
 .circle{

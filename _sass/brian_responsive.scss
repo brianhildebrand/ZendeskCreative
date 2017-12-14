@@ -1,0 +1,123 @@
+@media only screen and (max-width : 480px) {
+	
+	// general
+
+	p{
+		font-size: 16px;
+	}
+
+	#menu li{
+		margin-left: 30px;
+		margin-top: 18px;
+		a{
+			font-size: 14px;
+		}
+	}
+
+	#main-content{
+		padding-bottom: 204px;
+	}
+	
+	footer{
+		height: 204px; 
+	}
+
+	#zendesk-home{
+		margin: 20px auto 0 auto;
+		height: 70px;
+		width: 100px;
+	}
+
+	.footer-nav{
+		margin: auto;
+		margin-top: 12px;
+		margin-left: 50%;
+		transform: translateX(-50%);
+		display: inline-block;
+		a{
+			font-size: 14px;
+			float:left;
+			margin-left: 12px;
+		}
+	}
+
+	.footer-social-links {
+	    padding-top: 0;
+	    margin-top: 16px;
+	    display: inline-block;
+	    margin-left: 50%;
+	    transform: translateX(-50%);
+	}
+
+	// Author page
+
+	.author-meta-container {
+	    margin-top: 0px;
+		margin-bottom: 20px;
+	}
+
+	.city-stamp{
+		display:none;
+	}
+
+	.author-meta{
+		div{
+			text-align: left;
+			font-size: 14px;
+			color: $aluminum;
+			float: left;
+		}
+	}
+
+	.author-location{
+		&:after{
+			content: "";
+			height: 4px;
+			width: 4px;
+			background-color: $aluminum;
+			display: block;
+			float: left;
+			border-radius: 2px;
+			margin: 9px 6px 0 6px;
+		}
+	}
+
+	#author-contents{
+		h2{
+			font-size: 24px;
+			margin-bottom: 0px;
+		}
+	}
+
+	#author-contents {
+	    padding-top: 80px;
+	}
+
+	.author-social {
+		margin-left: 0;
+		margin-top: 30px;
+		transform: none;
+		display: block;
+		& a:first-child{
+		  margin-left:0;
+		}
+	}
+
+	.social-icon{
+		opacity: 1;
+	}
+
+	.author-posts {
+	    margin-top: 40px;
+	}
+
+}
+
+
+
+
+
+
+
+
+

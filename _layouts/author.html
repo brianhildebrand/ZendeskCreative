@@ -5,16 +5,22 @@ bodyclass: full-height
 {% assign author = site.data.authors[page.author_slug] %}
 {% assign author_posts = site.posts | where: "author_slug", page.author_slug %}
 <div id="author-contents" class="container full-container full">
-  <div class="row full">
-    <div class="col-md-4 author-meta-container">
-      <div class="city-stamp {{author.city}}"></div>
-      <div class="author-meta"> {{author.role}} </div>
-      <div class="author-meta author-location"> {{author.location}} </div>
-      <div class="author-social clearfix">{% include author-social-icons.html author=author %}</div>
-    </div>
-    <div class="col-md-8">
+  <div class="row">
+    <div class="col-md-8 order-md-2">
       <img src='{{ site.baseurl }}/img/{{author.cover_image}}' class="author-details__image">
       <h2 class="author-details__name">{{author.name}}</h2>
+    </div>
+    <div class="col-md-4 author-meta-container order-md-1">
+      <div class="city-stamp {{author.city}}"></div>
+      <div class="author-meta">
+        <div class="author-role"> {{author.role}} </div>
+        <div class="author-location"> {{author.location}} </div>
+      </div>
+      <div class="author-social clearfix">{% include author-social-icons.html author=author %}</div>
+    </div>
+  </div>
+  <div class="row">
+     <div class="col-md-8 offset-md-4">
       {{content}}
     </div>
   </div>

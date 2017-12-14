@@ -98,14 +98,14 @@
 //         }
 //     };
 
- $(document).ready(function(){
-    var feed = new Instafeed({
-        get: 'user',
-        userId: '5827019264',
-        clientId: '772a6d810cc844a9aee69fe841d40acb',
-        accessToken: '5827019264.772a6d8.7b48f8fac03b4e82aa30378bc45e1216',
-        resolution: 'standard_resolution',
-        template: '<a href="{{link}}" target="_blank" class="col-md-3 instagram-photo"><div class="instagram-watermark social-icon"></div><img src="{{image}}" /></a>'
-    });
-    feed.run();
-});
+//  $(document).ready(function(){
+//     var feed = new Instafeed({
+//         get: 'user',
+//         userId: '5827019264',
+//         clientId: '772a6d810cc844a9aee69fe841d40acb',
+//         accessToken: '5827019264.772a6d8.7b48f8fac03b4e82aa30378bc45e1216',
+//         resolution: 'standard_resolution',
+//         template: '<a href="{{link}}" target="_blank" class="col-md-3 instagram-photo"><div class="instagram-watermark social-icon"></div><img src="{{image}}" /></a>'
+//     });
+//     feed.run();
+// });

@@ -85,10 +85,10 @@ bodyclass: full-height
   {% for post in site.posts %}
     {% if post.is_square == true %}
     {% assign author = site.data.authors[post.author_slug] %}
-    <div class="col-md-4 article-link">
+    <div class="col-md-4 article-link fade-in-content">
       <a class="article-title" href="{{post.permalink}}" target="_blank">
         <div class="article-image-container">
-          <img src="{{ site.baseurl }}/img/{{post.feature_image}}">
+          <img src="{{ site.baseurl }}/img/{{post.feature_image_square}}">
           <div class="medium-badge"></div>
         </div>
         <h2>{{post.title}}</h2>
