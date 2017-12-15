@@ -115,6 +115,10 @@ video {
   height: auto   !important;
 }
 
+.main-content{
+  padding-top: 100px;
+}
+
 // Header
 
 #header{
@@ -523,10 +527,6 @@ footer{
   width: 100%;
   background-size: cover;
   background-position: center;
-}
-
-#events-contents{
-  padding-top: 120px;
 }
 
 .event-date{
