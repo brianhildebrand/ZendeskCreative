@@ -101,7 +101,7 @@ h4{
   text-align: center;
 }
 
-#main-content{
+#main-content-container{
   padding-bottom: $footerHeight;
 }
 
@@ -160,10 +160,6 @@ video {
 img{
   width:100%;
   height:auto;
-}
-
-#home-contents{
-  padding-top:100px;
 }
 
 clearfix {
@@ -233,6 +229,8 @@ footer{
   margin-top: 22px;
 }
 
+
+
 // Homepage
 
 .article-link{
@@ -297,7 +295,6 @@ footer{
 }
 
 #instafeed{
-  margin-top:30px;
   margin-bottom:60px;
 }
 
@@ -364,12 +361,12 @@ footer{
   }
 }
 
-.video-container{
-  padding-bottom: 40px;
+.video{
+  margin-bottom: 40px;
 }
 
 #video-container{
-  padding-bottom: 40px;
+  /*padding-bottom: 40px;*/
 }
 
 .video-text{
@@ -433,7 +430,6 @@ footer{
 // Author page
 
 #author-contents{
-  padding-top:100px;
   h2{
     font-size: 32px;
     color:$daintree;

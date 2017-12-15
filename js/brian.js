@@ -9,24 +9,34 @@ $( document ).ready(function() {
 	    template: '<a href="{{link}}" target="_blank" class="col-md-3 instagram-photo"><div class="instagram-watermark social-icon"></div><img src="{{image}}" /></a>',
 	    success: instasuccess()
 	});
+	
 	feed.run();
     
-	
-
-	for (var i = 0; i < elements.length; i++) {
-		var svgicon = new svgIcon( elements[i], svgIconConfig );
-	}
+	// for (var i = 0; i < elements.length; i++) {
+	// 	var svgicon = new svgIcon( elements[i], svgIconConfig );
+	// }
 
 	function instasuccess() {
 	  console.log("instagrams loaded");
 	  setTimeout(function(){
 	    $('#instafeed').slick({
 	      infinite: true,
-	      slidesToShow: 4,
+	      slidesToShow: 2,
 	      slidesToScroll: 3,
 	      prevArrow: '<div class="circle previous-instagram"><div class="arrow-previous"></div></div>',
 	      nextArrow: '<div class="circle next-instagram"><div class="arrow-next"></div></div>',
 	      infinite: false,
+	      responsive: [
+	          {
+	            breakpoint: 576,
+	            settings: {
+	              slidesToShow: 1,
+	              slidesToScroll: 1,
+	              dots: false,
+	              arrows:false
+	            }
+	          }
+	      ]
 	      
 	    });
 	  }, 500);
@@ -41,3 +51,6 @@ $(function(){
    this.pause();
   });
 });
+
+
+

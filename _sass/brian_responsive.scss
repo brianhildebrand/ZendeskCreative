@@ -1,4 +1,50 @@
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 1200px) {
+
+	.circle{
+		top: 86px;
+	}
+
+}
+
+@media only screen and (max-width : 992px) {
+
+	.footer-nav a {
+		font-size: 14px;
+	}
+
+	.article-link h2 {
+	    font-size: 21px;
+	}
+
+	.video-text{
+		font-size: 20px;
+	}
+
+	.circle {
+	    top: 56px;
+	}
+	
+}
+
+@media only screen and (max-width : 768px) {
+	// Authors
+
+	.author-link h2 {
+	    font-size: 18px;
+	    margin-bottom: 0;
+	}
+
+	.footer-nav a {
+	    margin-left: 14px;
+	}
+
+	footer .social-icon {
+	    margin: 0 2px 0 2px;
+	}
+}
+
+
+@media only screen and (max-width : 576px) {
 	
 	// general
 
@@ -14,7 +60,7 @@
 		}
 	}
 
-	#main-content{
+	#main-content-container{
 		padding-bottom: 204px;
 	}
 	
@@ -47,6 +93,29 @@
 	    display: inline-block;
 	    margin-left: 50%;
 	    transform: translateX(-50%);
+	}
+
+	.main-content{
+	  padding-top: 80px;
+	}
+
+	// Home
+
+	.article-link{
+		min-height: 0;
+		h2{
+			font-size: 20px;
+			margin-bottom: 6px;
+		}
+	}
+
+	.author-avatar-small{
+		width: 34px;
+		height: 34px;
+	}
+
+	.play-button{
+		bottom: 16px;
 	}
 
 	// Author page
@@ -89,13 +158,9 @@
 		}
 	}
 
-	#author-contents {
-	    padding-top: 80px;
-	}
-
 	.author-social {
 		margin-left: 0;
-		margin-top: 30px;
+		margin-top: 34px;
 		transform: none;
 		display: block;
 		& a:first-child{
@@ -109,6 +174,10 @@
 
 	.author-posts {
 	    margin-top: 40px;
+	}
+
+	.instagram-photo{
+		width:100%;
 	}
 
 }
