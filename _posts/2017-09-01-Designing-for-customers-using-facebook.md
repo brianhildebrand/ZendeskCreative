@@ -5,5 +5,5 @@ categories: product-design
 author_slug: tengwan-quek
 is_featured: false
 is_square: false
-feature_image: message-interface.png
+feature_image: posts/message-interface.png
 ---

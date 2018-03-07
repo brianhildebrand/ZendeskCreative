@@ -5,7 +5,7 @@ categories: brand
 author_slug: raphael-gueller
 is_featured: false
 is_square: true
-feature_image: london-office.jpg
-feature_image_square: london-office.jpg
+feature_image: posts/london-office.jpg
+feature_image_square: posts/london-office.jpg
 permalink: https://medium.com/zendesk-creative-blog/
 ---

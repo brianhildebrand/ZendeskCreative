@@ -5,5 +5,5 @@ categories: product-design
 author_slug: nicolette-robichaud
 is_featured: false
 is_square: false
-feature_image: garden.png
+feature_image: posts/garden.png
 ---

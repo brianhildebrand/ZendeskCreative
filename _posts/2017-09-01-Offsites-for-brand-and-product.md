@@ -5,7 +5,7 @@ categories: brand
 author_slug: ryan-donahue
 is_featured: false
 is_square: true
-feature_image: boarding_pass_rec.jpg
-feature_image_square: boarding_pass.jpg
+feature_image: posts/boarding_pass_rec.jpg
+feature_image_square: posts/boarding_pass.jpg
 permalink: https://medium.com/zendesk-creative-blog/
 ---

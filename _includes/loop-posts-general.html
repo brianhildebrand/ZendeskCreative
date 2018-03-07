@@ -1,22 +1,25 @@
 <div class="container full-container full author-posts">
     <div class="row full">
           {% for post in include.posts %}
-              <div class="col-md-4 article-link">
-                <a class="article-title" href="{{post.permalink | prepend: site.baseurl}}">
-                  <div class="article-image-container">
-                    <img src="{{ site.baseurl }}/img/{{post.feature_image}}">
-                    <div class="medium-badge"></div>
+              <div class="col-md-6 article-link-container fade-in-content">
+                    <a class="article-link" href="{{post.permalink}}" target="_blank">
+                      <div class="article-image-container">
+                        <img src="{{ site.baseurl }}/img/{{post.feature_image}}">
+                        <div class="medium-badge"></div>
+                      </div>
+                      <h2>{{post.title}}</h2>
+                    </a>
+                  
+                    <a href="{{ site.baseurl }}{{ author.permalink }}" class="author-link clearfix">
+                      <div class="author-avatar float-left">
+                        <img src="{{ site.baseurl }}/img/{{author.avatar_image}}">
+                      </div>
+                      <div class="author-info float-left">
+                        <div class="article-author">{{author.name}}</div>
+                        <div class="author-role">{{author.role}}</div>
+                      </div>
+                    </a>
                   </div>
-                  <h2>{{post.title}}</h2>
-                </a>
-                <div class="clearfix">
-                  <a href="{{ site.baseurl }}{{ author.permalink }}">
-                    <img class="author-avatar-small" src="{{ site.baseurl }}/img/{{author.avatar_image}}">
-                    <div class="article-author">{{author.name}}</div>
-                    <div class="author-role">{{author.role}}</div>
-                  </a>
-                </div>
-              </div>
           {% endfor %}
     </div> <!--/row -->
 </div>

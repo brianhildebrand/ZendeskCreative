@@ -1,13 +1,21 @@
+anna-lee-anda:
+    name: Anna Lee Anda
+    slug: anna-lee-anda
+    location: Singapore
+    city: singapore
+    avatar_image: authors/Anna_avatar.png
+    portrait: authors/Anna.png
+    permalink: /author/dovile
+    role: Researcher
+    medium_url: http://medium.com/@annaleeanda
+
 dovile-janule:
     name: Dovile Janule
     slug: dovile-janule
-    bio: >
-        Self service master
-        And senior designer
     location: Copenhagen, Denmark
     city: copenhagen
-    avatar_image: Dovile.png
-    cover_image: Dovile_full.jpg
+    avatar_image: authors/Anna_avatar.png
+    portrait: authors/Anna.png
     permalink: /author/dovile
     role: Senior Product Designer
     instagram_url: http://instagram.com/dovilejanule
@@ -17,11 +25,10 @@ dovile-janule:
 brian-hildebrand:
     name: Brian Hildebrand
     slug: brian-hildebrand
-    bio: Brogrammer and wanna be 
     location: San Francisco, CA
     city: san-francisco
-    avatar_image: Brian.png
-    cover_image: Brian_01.jpg
+    avatar_image: authors/Raphael_avatar.png
+    portrait: authors/Raphael.png
     permalink: /author/brian
     role: Product Designer
     instagram_url: http://instagram.com/hildebr4nd
@@ -30,11 +37,10 @@ brian-hildebrand:
 nicolette-robichaud:
     name: Nicolette Robichaud
     slug: nicolette-robichaud
-    bio: Pigen zine publisher.
     location: San Francisco, CA
     city: san-francisco
-    avatar_image: Nicolette.png
-    cover_image: Nicolette_full.jpg
+    avatar_image: authors/Jill_avatar.png
+    portrait: authors/Jill.png
     permalink: /author/nicolette
     role: Product Designer
     instagram_url: http://instagram.com/vulgaris
@@ -43,11 +49,10 @@ nicolette-robichaud:
 raphael-gueller:
     name: Raphael Gueller
     slug: raphael-gueller
-    bio: Pigen zine publisher.
     location: London, UK
     city: london
-    avatar_image: Raphael.png
-    cover_image: Brian_01.jpg
+    avatar_image: authors/Raphael_avatar.png
+    portrait: authors/Raphael.png
     role: Global Brand Manager
     permalink: /author/raphael
     instagram_url: http://instagram.com/raphaelgueller
@@ -55,11 +60,10 @@ raphael-gueller:
 ryan-donahue:
     name: Ryan Donahue
     slug: ryan-donahue
-    bio: Ran a startup with Aston Kutcher
     location: San Francisco, CA
     city: san-francisco
-    avatar_image: Ryan.png
-    cover_image: Ryan_full.jpg
+    avatar_image: authors/Ryan_avatar.png
+    portrait: authors/Ryan.png
     role: VP Creative
     permalink: /author/ryan
     instagram_url: http://instagram.com/rydonahue/
@@ -67,11 +71,10 @@ ryan-donahue:
 toke-nygaard:
     name: Toke Nygaard
     slug: toke-nygaard
-    bio: Cuban council expat.
     location: London, UK
     city: london
-    avatar_image: Toke.png
-    cover_image: Toke_full.jpg
+    avatar_image: authors/Toke_avatar.png
+    portrait: authors/Toke.png
     role: CCO
     permalink: /author/toke
     medium_url: http://medium.com/@tokenygaard
@@ -80,23 +83,33 @@ toke-nygaard:
 tengwan-quek:
     name: Tengwan Quek
     slug: tengwan-quek
-    bio: Former illustrator
     location: Signapore
     city: singapore
-    avatar_image: Tengwan.png
-    cover_image: Tengwan_full.jpg
+    avatar_image: authors/Tengwan_avatar.png
+    portrait: authors/Tengwan.png
     role: Product designer
     permalink: /author/tengwan
     dribbble_url: http://www.some-wan.com/
 
+jill-quek:
+    name: Jill Quek
+    slug: jill-queck
+    location: Signapore
+    city: singapore
+    avatar_image: authors/Jill_avatar.png
+    portrait: authors/Jill.png
+    role: Product designer
+    permalink: /author/jill
+    dribbble_url: http://dribbble.com/jilln
+    instagram_url: http://instagram.com/jillhello/
+
 bob-galmarini:
     name: Bob Galmarini
     slug: bob-galmarini
-    bio: Surfer and all around amazing family man
     location: San Francisco, CA
     city: san-francisco
-    avatar_image: Bob.png
-    cover_image: Bob_full.jpg
+    avatar_image: authors/Bob_avatar.png
+    portrait: authors/Bob.png
     role: Creative Director
     permalink: /author/bob
     instagram_url: http://instagram.com/bgalmar
