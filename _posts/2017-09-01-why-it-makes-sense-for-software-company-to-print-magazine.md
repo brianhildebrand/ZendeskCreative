@@ -1,6 +1,7 @@
 ---
 layout: post
-date: 2017-09-01 08:50:28
+date: 2018-03-08 12:00:00
+published: true
 categories: brand
 author_slug: raphael-gueller
 is_featured: true

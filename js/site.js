@@ -4,7 +4,7 @@ $( document ).ready(function() {
 	    get: 'user',
 	    userId: '2195345896',
 	    clientId: 'd6cec9db6c7d4cc396748d1a517423c8',
-	    accessToken: '2195345896.d6cec9d.3b88c0b2f0544925894415c3f183a75a',
+	    accessToken: '2195345896.d6cec9d.90df2750ad3c4327be326687796782d9',
 	    resolution: 'standard_resolution',
 	    template: '<div class="col-md-3"><a href="{{link}}" target="_blank" class=" instagram-photo" style=" background-image: url( {{image}} ); "><div class="instagram-watermark social-icon" ></div></a></div>',
 	    success: instasuccess()
@@ -38,7 +38,7 @@ $( document ).ready(function() {
 	          }
 	      ]
 	    });
-	  }, 2000);
+	  }, 1000);
 	}
 });
 

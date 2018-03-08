@@ -5,8 +5,8 @@ anna-lee-anda:
     city: singapore
     avatar_image: authors/Anna_avatar.png
     portrait: authors/Anna.png
-    permalink: /author/dovile
-    role: Researcher
+    permalink: /author/anna
+    role: User Experience Researcher
     medium_url: http://medium.com/@annaleeanda
 
 dovile-janule:
@@ -101,7 +101,7 @@ jill-quek:
     role: Product designer
     permalink: /author/jill
     dribbble_url: http://dribbble.com/jilln
-    instagram_url: http://instagram.com/jillhello/
+    instagram_url: http://instagram.com/jillhello
 
 bob-galmarini:
     name: Bob Galmarini
@@ -114,3 +114,18 @@ bob-galmarini:
     permalink: /author/bob
     instagram_url: http://instagram.com/bgalmar
     dribbble_url: http://dribbble.com/bgalmar
+
+allison-shaw:
+    name: Allison Shaw
+    slug: allison-shaw
+    location: San Francisco
+    city: san-francisco
+    avatar_image: authors/Jill_avatar.png
+    portrait: authors/Jill.png
+    role: Senior Product designer
+    permalink: /author/allison
+    dribbble_url: http://dribbble.com/allisonacs
+    instagram_url: http://instagram.com/allisonacs
+
+
+
