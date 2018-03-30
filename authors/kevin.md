@@ -1,7 +1,7 @@
 ---
 layout: author
-author_slug: allison-shaw
-permalink: /author/allison/
+author_slug: kevin-cline
+permalink: /author/kevin/
 ---
 
 <h4>What’s been your proudest moment since joining Zendesk?</h4>

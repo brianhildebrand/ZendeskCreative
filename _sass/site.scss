@@ -451,6 +451,87 @@ footer{
   animation-duration: 2s;
 }
 
+// PBJ
+
+#home-contents{
+  padding-top: 60px!important;
+}
+
+#site-intro{
+  /*margin-bottom: 40px;*/
+  position: relative;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  h1{
+    font-size: 42px;
+    line-height: 1.2em;
+    padding-top: 25%;
+    color:#03363D;
+  }
+  img{
+    width:auto;
+    height: auto;
+  }
+}
+
+#trigger-element{
+  /*height: 1px;*/
+  background-color: blue;
+  position: absolute;
+  width: 100%;
+  top:100vh;
+}
+
+#intro-text{
+  font-family: "Sharp Sans";
+  font-weight: bold;
+  color: #03363D;
+  font-size: 32px;
+  width: 700px;
+  text-align: center;
+  left: 50%;
+  position: absolute;
+  margin-left: -350px;
+  top: 50%;
+  margin-top: -76px;
+}
+
+.fixed{
+  width: 100%;
+  height: 600px;
+}
+
+#pbj{
+  position: absolute;
+  display: none;
+}
+
+.sando-element{
+  position: absolute;
+  transform: scale(0.5);
+  transform-origin: top left;
+}
+
+#pbj-semecircle-02{
+  top:400px;
+  left:75%;
+}
+
+#pbj-semecircle-01{
+  top: 30px;
+  left: 20%;
+}
+
+#pbj-triangle-peanutbutter{
+  top:300px;
+}
+
+#pbj-triangle-jelly{
+  top: -70px;
+  left: 60%;
+}
+
 // Author page
 
 #author-contents{

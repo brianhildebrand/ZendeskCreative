@@ -9,43 +9,6 @@ anna-lee-anda:
     role: User Experience Researcher
     medium_url: http://medium.com/@annaleeanda
 
-dovile-janule:
-    name: Dovile Janule
-    slug: dovile-janule
-    location: Copenhagen, Denmark
-    city: copenhagen
-    avatar_image: authors/Anna_avatar.png
-    portrait: authors/Anna.png
-    permalink: /author/dovile
-    role: Senior Product Designer
-    instagram_url: http://instagram.com/dovilejanule
-    dribbble_url: http://dribbble.com/Dovile
-    medium_url: http://medium.com/@dovilejan
-
-brian-hildebrand:
-    name: Brian Hildebrand
-    slug: brian-hildebrand
-    location: San Francisco, CA
-    city: san-francisco
-    avatar_image: authors/Raphael_avatar.png
-    portrait: authors/Raphael.png
-    permalink: /author/brian
-    role: Product Designer
-    instagram_url: http://instagram.com/hildebr4nd
-    dribbble_url: http://dribbble.com/hildebr4nd
-
-nicolette-robichaud:
-    name: Nicolette Robichaud
-    slug: nicolette-robichaud
-    location: San Francisco, CA
-    city: san-francisco
-    avatar_image: authors/Jill_avatar.png
-    portrait: authors/Jill.png
-    permalink: /author/nicolette
-    role: Product Designer
-    instagram_url: http://instagram.com/vulgaris
-    dribbble_url: http://dribbble.com/nicolette
-
 raphael-gueller:
     name: Raphael Gueller
     slug: raphael-gueller
@@ -67,6 +30,7 @@ ryan-donahue:
     role: VP Creative
     permalink: /author/ryan
     instagram_url: http://instagram.com/rydonahue/
+    medium_url: http://medium.com/@rydonahue
 
 toke-nygaard:
     name: Toke Nygaard
@@ -90,6 +54,8 @@ tengwan-quek:
     role: Product designer
     permalink: /author/tengwan
     dribbble_url: http://www.some-wan.com/
+    instagram_url: http://instagram.com/tengwan/
+    medium_url: http://medium.com/@tengwan
 
 jill-quek:
     name: Jill Quek
@@ -103,29 +69,14 @@ jill-quek:
     dribbble_url: http://dribbble.com/jilln
     instagram_url: http://instagram.com/jillhello
 
-bob-galmarini:
-    name: Bob Galmarini
-    slug: bob-galmarini
-    location: San Francisco, CA
-    city: san-francisco
-    avatar_image: authors/Bob_avatar.png
-    portrait: authors/Bob.png
-    role: Creative Director
-    permalink: /author/bob
-    instagram_url: http://instagram.com/bgalmar
-    dribbble_url: http://dribbble.com/bgalmar
-
-allison-shaw:
-    name: Allison Shaw
-    slug: allison-shaw
+kevin-cline:
+    name: Kevin Cline
+    slug: kevin-cline
     location: San Francisco
     city: san-francisco
     avatar_image: authors/Jill_avatar.png
     portrait: authors/Jill.png
-    role: Senior Product designer
-    permalink: /author/allison
-    dribbble_url: http://dribbble.com/allisonacs
-    instagram_url: http://instagram.com/allisonacs
-
-
-
+    role: Creative Director
+    permalink: /author/kevin
+    instagram_url: http://instagram.com/engine99
+    medium_url: http://medium.com/@thekevincline
