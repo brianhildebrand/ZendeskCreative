@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2015-05-26-10 08:50:28
+date: 2015-05-26 08:50:28
 published: false
 author_slug: toke-nygaard
 categories: brand
