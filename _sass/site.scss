@@ -461,7 +461,7 @@ footer{
   /*margin-bottom: 40px;*/
   position: relative;
   width: 100%;
-  height: 700px;
+  /*height: 700px;*/
   overflow: hidden;
   h1{
     font-size: 42px;
@@ -473,6 +473,10 @@ footer{
     width:auto;
     height: auto;
   }
+  .row{
+    align-items: center;
+  }
+  
 }
 
 #trigger-element{
@@ -488,23 +492,18 @@ footer{
   font-weight: bold;
   color: #03363D;
   font-size: 32px;
-  width: 700px;
+  /*width: 700px;*/
   text-align: center;
-  left: 50%;
-  position: absolute;
+  /*left: 50%;*/
+  /*position: absolute;
   margin-left: -350px;
   top: 50%;
-  margin-top: -76px;
+  margin-top: -76px;*/
 }
 
 .fixed{
   width: 100%;
   height: 600px;
-}
-
-#pbj{
-  position: absolute;
-  display: none;
 }
 
 .sando-element{
@@ -513,12 +512,12 @@ footer{
   transform-origin: top left;
 }
 
-#pbj-semecircle-02{
+#pbj-semicircle-back{
   top:400px;
   left:75%;
 }
 
-#pbj-semecircle-01{
+#pbj-semicircle-front{
   top: 30px;
   left: 20%;
 }
