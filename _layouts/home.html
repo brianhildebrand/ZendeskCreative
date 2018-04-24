@@ -6,25 +6,22 @@ bodyclass: full-height
 <div id="home-contents" class="main-content">
 
   <div id="trigger-element"></div>
-
   <div class="pinned-container">
-
     <div id="site-intro">
       <div class="container">
         <div class="row">
           <div id="intro-text" class="col-md-8 offset-md-2">We’re a blend of art, copy, video, and UX. We come from different backgrounds, but we share one passion as the Creative team.</div>
         </div>
       </div>
-
-        <div id="pbj-semicircle-back" class="sando-element"><img src="{{ site.baseurl }}/img/pbjz_semi_circle_01.png"></div>
-        <div id="pbj-semicircle-front" class="sando-element"><img src="{{ site.baseurl }}/img/pbjz_semi_circle_02.png"></div>
-        <div id="pbj-triangle-jelly" class="sando-element"><img src="{{ site.baseurl }}/img/pbjz_triangle_jelly.png"></div>
-        <div id="pbj-triangle-peanutbutter" class="sando-element"><img src="{{ site.baseurl }}/img/pbjz_triangle_peanutbutter.png"></div>
+      <div id="pbj-semicircle-back" class="sando-element"><img src="{{ site.baseurl }}/img/pbjz_semi_circle_01.png"></div>
+      <div id="pbj-semicircle-front" class="sando-element"><img src="{{ site.baseurl }}/img/pbjz_semi_circle_02.png"></div>
+      <div id="pbj-triangle-jelly" class="sando-element"><img src="{{ site.baseurl }}/img/pbjz_triangle_jelly.png"></div>
+      <div id="pbj-triangle-peanutbutter" class="sando-element"><img src="{{ site.baseurl }}/img/pbjz_triangle_peanutbutter.png"></div>
     </div>
 
     <div id="article-container" class="container">
       <div class="row">
-      {% for post in site.posts %}
+        {% for post in site.posts reversed limit:4 %}
         {% if post.is_featured == true %}
         {% assign author = site.data.authors[post.author_slug] %}
         <div class="col-md-6 article-link-container fade-in-content">
@@ -35,7 +32,7 @@ bodyclass: full-height
             </div>
             <h2>{{post.title}}</h2>
           </a>
-        
+
           <a href="{{ site.baseurl }}{{ author.permalink }}" class="author-link clearfix">
             <div class="author-avatar float-left">
               <img src="{{ site.baseurl }}/img/{{author.avatar_image}}">
@@ -47,40 +44,20 @@ bodyclass: full-height
           </a>
         </div>
         {% endif %}
-      {% endfor %}
-      </div> <!--/row -->
+        {% endfor %}
+      </div> 
 
-      <div id="instafeed" class="row"></div>
-
-      <div class="row">
-      {% for post in site.posts %}
-        {% if post.is_square == true %}
-        {% assign author = site.data.authors[post.author_slug] %}
-        <div class="col-md-4 article-link-container fade-in-content">
-          <a class="article-link" href="{{post.permalink}}" target="_blank">
-            <div class="article-image-container">
-              <img src="{{ site.baseurl }}/img/{{post.feature_image_square}}">
-              <div class="medium-badge"></div>
-            </div>
-            <h2>{{post.title}}</h2>
-          </a>
-          <a href="{{ site.baseurl }}{{ author.permalink }}" class="author-link clearfix">
-            <div class="author-avatar float-left">
-              <img src="{{ site.baseurl }}/img/{{author.avatar_image}}">
-            </div>
-            <div class="author-info float-left">
-              <div class="article-author">{{author.name}}</div>
-              <div class="author-role">{{author.role}}</div>
-            </div>
-          </a>
+      <div id="instafeed" class="row">
+        {% for gram in site.data.instagrams %}
+        <div class="col-md-3">
+          <a href="{{gram[1].link}}" target="_blank" class=" instagram-photo" style=" background-image: url( {{gram[1].image_url}} ); "><div class="instagram-watermark social-icon" ></div></a>
         </div>
-        {% endif %}
-      {% endfor %}
-      </div> <!--/row -->
+        {% endfor %}
+      </div>
 
       <div class="row">
-      {% for post in site.posts %}
-        {% if post.is_featured == false and post.is_square == false %}
+        {% for post in site.posts %}
+        {% if post.is_featured == false %}
         {% assign author = site.data.authors[post.author_slug] %}
         <div class="col-md-6 article-link-container fade-in-content">
           <a class="article-link" href="{{post.permalink}}" target="_blank">
@@ -90,7 +67,6 @@ bodyclass: full-height
             </div>
             <h2>{{post.title}}</h2>
           </a>
-        
           <a href="{{ site.baseurl }}{{ author.permalink }}" class="author-link clearfix">
             <div class="author-avatar float-left">
               <img src="{{ site.baseurl }}/img/{{author.avatar_image}}">
@@ -102,34 +78,9 @@ bodyclass: full-height
           </a>
         </div>
         {% endif %}
-      {% endfor %}
-      </div> <!--/row -->
+        {% endfor %}
 
-      <div class="row">
-      {% for post in site.posts %}
-        {% if post.is_square == true %}
-        {% assign author = site.data.authors[post.author_slug] %}
-        <div class="col-md-4 article-link-container fade-in-content">
-          <a class="article-link" href="{{post.permalink}}" target="_blank">
-            <div class="article-image-container">
-              <img src="{{ site.baseurl }}/img/{{post.feature_image_square}}">
-              <div class="medium-badge"></div>
-            </div>
-            <h2>{{post.title}}</h2>
-          </a>
-          <a href="{{ site.baseurl }}{{ author.permalink }}" class="author-link clearfix">
-            <div class="author-avatar float-left">
-              <img src="{{ site.baseurl }}/img/{{author.avatar_image}}">
-            </div>
-            <div class="author-info float-left">
-              <div class="article-author">{{author.name}}</div>
-              <div class="author-role">{{author.role}}</div>
-            </div>
-          </a>
-        </div>
-        {% endif %}
-      {% endfor %}
-      </div> <!--/row -->
+      </div>
     </div>
 
   </div>

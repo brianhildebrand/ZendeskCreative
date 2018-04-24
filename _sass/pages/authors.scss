@@ -1,0 +1,15 @@
+// Authors list page
+
+.authors-contents{
+  .author-role{
+    font-size: 14px;
+  }
+}
+
+.author-link{
+  margin-bottom: 40px;
+  h2{
+    color: $daintree!important;
+    margin-bottom: 0;  
+  }
+}

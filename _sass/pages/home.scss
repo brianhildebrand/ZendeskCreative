@@ -1,0 +1,223 @@
+/*** Homepage ***/
+
+.article-link-container{
+  margin-bottom: 40px;
+  a{
+    color: $daintree;
+    display: block;
+  }
+  h2{
+    color: $daintree;
+    font-size:24px;
+    line-height: 1.2em;
+    margin-top: 18px;
+  }
+  img{
+     @include transition(.2s ease);
+  }
+}
+
+.article-link{
+  img{
+     @include transition(.2s ease);
+  }
+  &:hover{
+    .medium-badge{
+      opacity: 1;
+      transform: translate(0, -10px);
+    }
+    img{
+      opacity: .85;
+    }
+  }
+}
+
+.article-author{
+  color: $oil;
+  display: block;
+  margin-top: 4px;
+}
+
+.author-role{
+  color: $aluminum;
+  font-size: 12px;
+}
+
+.author-avatar{
+  width: 50px;
+  height:50px;
+  margin-right: 12px;
+  margin-top: 2px;
+  border: 1px solid #dddddd;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.medium-badge{
+  height: 30px;
+  width: 30px;
+  background:url("../img/icons/medium-icon-hollow.svg")no-repeat;
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  @include transition(.2s ease);
+  opacity: 0;
+}
+
+.article-image-container{
+  position: relative;
+}
+
+#instafeed{
+  margin-bottom:60px;
+}
+
+.instagram-photo{
+  display: block;
+  padding-top: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.circle{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 0 30px 0 rgba(36, 83, 107, 0.2);
+  z-index: 100;
+  top: 107px;
+  position:absolute;
+  cursor: pointer;
+  &.slick-disabled{
+    visibility: hidden;
+  }
+}
+
+.next-instagram{
+  right: -6px;
+}
+
+.previous-instagram{
+  left: -6px;
+}
+
+.arrow-next{
+  background:url("../img/icons/Next.svg")no-repeat;
+  display: block;
+  height: 20px;
+  width: 20px;
+  background-size: 12px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.arrow-previous{
+  background:url("../img/icons/Previous.svg")no-repeat;
+  display: block;
+  height: 20px;
+  width: 20px;
+  background-size: 12px;
+  margin-top: 10px;
+  margin-left: 13px;
+}
+
+.instagram-photo{
+  .social-icon{
+    bottom: 0px;
+    left: 20px;
+    position: absolute;
+    opacity: 0;
+    background:url("../img/icons/instagram-icon-white.svg")no-repeat;
+    @include transition(.2s ease);
+  }
+  &:hover{
+    .social-icon{
+      opacity: 1;
+      transform: translate(0, -10px);
+    }
+  }
+}
+
+@keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.fade-in-content{
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+// PBJ
+
+#home-contents{
+  padding-top: 60px!important;
+}
+
+#site-intro{
+  /*margin-bottom: 40px;*/
+  position: relative;
+  width: 100%;
+  /*height: 700px;*/
+  overflow: hidden;
+  h1{
+    font-size: 42px;
+    line-height: 1.2em;
+    padding-top: 25%;
+    color:$daintree;
+  }
+  img{
+    width:auto;
+    height: auto;
+  }
+  .row{
+    align-items: center;
+  }
+  
+}
+
+#trigger-element{
+  background-color: blue;
+  position: absolute;
+  width: 100%;
+  top:100vh;
+}
+
+#intro-text{
+  font-family: "Sharp Sans";
+  font-weight: bold;
+  color: $daintree;
+  font-size: 32px;
+  text-align: center;
+}
+
+.fixed{
+  width: 100%;
+  height: 600px;
+}
+
+.sando-element{
+  position: absolute;
+  transform: scale(0.5);
+  transform-origin: top left;
+}
+
+#pbj-semicircle-back{
+  top:400px;
+  left:75%;
+}
+
+#pbj-semicircle-front{
+  top: 30px;
+  left: 20%;
+}
+
+#pbj-triangle-peanutbutter{
+  top:300px;
+}
+
+#pbj-triangle-jelly{
+  top: -70px;
+  left: 60%;
+}

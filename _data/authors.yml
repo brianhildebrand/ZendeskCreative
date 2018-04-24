@@ -80,3 +80,15 @@ kevin-cline:
     permalink: /author/kevin
     instagram_url: http://instagram.com/engine99
     medium_url: http://medium.com/@thekevincline
+
+brian-hildebrand:
+    name: Brian Hildebrand
+    slug: brian-hildebrand
+    location: San Francisco
+    city: san-francisco
+    avatar_image: authors/Brian_avatar.png
+    portrait: authors/Brian.png
+    role: Product designer
+    permalink: /author/brian
+    instagram_url: http://instagram.com/hildebr4nd
+    medium_url: http://medium.com/@hildebr4nd

@@ -2,15 +2,33 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-// Imports
+// Bootstrap
 
 @import "_functions";
 @import "_variables";
 @import "_mixins";
-
 @import "_grid";
+
+// Helpers
+
+@import "helpers/variables";
+@import "helpers/type";
+
+// Components
+
+@import "components/header";
+@import "components/footer";
+
+// Base
+
+@import "base/base";
+
+// Pages
+
+@import "pages/home";
+@import "pages/author";
+@import "pages/authors";
+@import "pages/events";
 @import "_reboot";
 @import "slick";
-@import "site";
-@import "site_responsive";
-@import "slick";
+@import "layout/responsive";

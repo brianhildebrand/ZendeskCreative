@@ -5,6 +5,5 @@ published: true
 categories: product-design
 author_slug: tengwan-quek
 is_featured: true
-is_square: false
 feature_image: posts/message.jpg
 ---

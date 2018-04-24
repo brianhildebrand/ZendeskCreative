@@ -1,0 +1,58 @@
+/*** Footer ***/
+
+footer{
+  width:100%;
+  height:$footerHeight;
+  position:absolute;
+  bottom:0;
+  margin-top: 40px; 
+  background-color: $daintree;
+  .social-icon{
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: right;
+    background-size: 26px 26px;
+    margin: 0 5px 0 5px;
+    opacity: 1;
+  } 
+}
+
+.footer-social-links{
+  padding-top: 45px;
+} 
+
+.team-instagram{
+  background:url("../img/icons/instagram-icon-white.svg")no-repeat;
+}
+
+.team-dribbble{
+  background:url("../img/icons/dribbble-icon-white.svg")no-repeat;
+}
+
+.team-medium{
+  background:url("../img/icons/medium-icon-white.svg")no-repeat;
+}
+
+.footer-nav{
+    margin: auto;
+    margin-top: 47px;
+  a{
+    margin-left:40px;
+    color:$white;
+    &:hover{
+      color:$pelorous;
+    }
+  }
+  & a:first-child{
+    margin-left:0;
+  }
+}
+
+#zendesk-home{
+  height: 100px;
+  width: 100px;
+  background:url("../img/icons/zendesk-medium-white.svg")no-repeat;
+  display: block;
+  margin-top: 22px;
+}

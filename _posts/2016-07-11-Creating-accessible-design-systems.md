@@ -5,6 +5,5 @@ published: false
 categories: product-design
 author_slug: allison-shaw
 is_featured: true
-is_square: false
 feature_image: posts/garden.png
 ---

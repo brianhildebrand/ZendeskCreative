@@ -1,7 +1,8 @@
 ---
 layout: event
 title: Designing Products for Virtual Reality 
-date: 2016-11-04 08:50:28
+date: 2016-11-04
+published: false
 permalink: /event/designing-products-for-virtual-reality
 cover_image: events/designing_for_business.jpg
 ---

@@ -1,0 +1,84 @@
+html{ 
+  background-color:white;
+}
+
+body{
+  margin:0;  
+}
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+a{
+  text-decoration: none;
+  @include transition(color .2s ease);
+  &:hover {
+    color:$pelorous;
+    text-decoration: none!important;
+  }
+}
+
+p{
+  font-size: 18px;
+  color:$darkGray;
+}
+
+h1, h2, h3, h4{
+  color: $daintree;
+}
+
+h2{
+  font-family: "Sharp Sans";
+  font-weight: 600;
+}
+
+img{
+  width:100%;
+  height:auto;
+}
+
+#wrapper {
+   min-height:100%;
+   position:relative;
+}
+
+.text-center{
+  text-align: center;
+}
+
+#main-content-container{
+  padding-bottom: $footerHeight;
+}
+
+.padding-md{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.main-content{
+  padding-top: 100px;
+}
+
+clearfix {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}

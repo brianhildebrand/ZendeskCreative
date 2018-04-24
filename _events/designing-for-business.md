@@ -1,7 +1,8 @@
 ---
 layout: event
 title: Designing for business
-date: 2016-11-04 08:50:28
+date: 2016-11-04
+published: true
 permalink: /event/designing-for-business/
 cover_image: events/designing_for_business.jpg
 ---
